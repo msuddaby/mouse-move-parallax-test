@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background-color: #202020;
+}
+
+.container {
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 1080px;
+    position: relative;
+
+  }
+
+  .sliding-background-1 {
+    background: url("img/01_Particles.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 20s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 11;
+  }
+
+  .sliding-background-2 {
+    background: url("img/02_Bushes.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 18s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+  }
+
+  .sliding-background-3 {
+    background: url("img/03_Particles.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 16s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+  }
+
+  .sliding-background-4 {
+    background: url("img/04_Forest.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 14s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 8;
+  }
+
+  .sliding-background-5 {
+    background: url("img/05_Particles.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 12s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 7;
+  }
+  
+  .sliding-background-6 {
+    background: url("img/06_Forest.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 10s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+  }
+
+  .sliding-background-7 {
+    background: url("img/07_Forest.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 8s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+  }
+
+  .sliding-background-8 {
+    background: url("img/08_Forest.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 6s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+  }
+
+  .sliding-background-9 {
+    background: url("img/09_Forest.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 4s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+  }
+
+  .sliding-background-10 {
+    background: url("img/10_Sky.png") repeat-x;
+    height: 1080px;
+    width: 2000%;
+    animation: slide 2s linear infinite;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+  }
+
+  .flex-title {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 12;
+    width: 100%;
+    height: 100%;
+  }
+
+  .title-content {
+    background-color: rgba(0,0,0,0.4);
+    padding: 2rem;
+    border-radius: 16px;
+  }
+  
+  
+  @keyframes slide{
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1920px, 0, 0);
+    }
+  }

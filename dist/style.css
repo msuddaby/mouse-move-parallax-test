@@ -29,3 +29,96 @@ h1 {
   opacity: .2;
   font-size: 70px;
 }
+
+.forest-bg {
+  background-image: url(img/10_Sky.png);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0,0,0);
+  
+}
+
+.mover-1 {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url('img/08_Forest.png'); */
+  background-size: cover;
+  transform: translate3d(0,0,0);
+
+  /* animation: moveSlideshow 12s linear infinite; */
+}
+
+
+
+.mover-2 {
+  /* background-image: url('img/08_Forest.png'); */
+  background-size: cover;
+  transform: translate3d(0,0,0);
+  /* animation: moveSlideshow 12s linear infinite; */
+}
+
+.forest-bg > div {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* #forest-1 {
+  position: relative;
+  background-image: url('img/07_Forest.png');
+  background-position: 0;
+} */
+
+
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: none;
+}
+
+.forest {
+  background-image: url('img/10_Sky.png');
+  height: 100vh;
+}
+
+#forest-1 {
+  display: flex;
+  overflow: hidden;
+}
+
+.forest-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url('img/06_Forest.png');
+  background-repeat: repeat-x;
+  animation: scrollOne 1s linear infinite;
+}
+
+@keyframes scrollOne {
+  0% {
+    transform: translate3d(0,0,0);
+  }
+  100% {
+    transform: translate3d(-1920px,0,0)
+  }
+}
+
+.scrolling-bg {
+  background-image: url('img/06_Forest.png');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+main {
+  background-color: #202020;
+}
+
+.relative {
+  background-color: #202020;
+  position: relative;
+  z-index: 1;
+}
